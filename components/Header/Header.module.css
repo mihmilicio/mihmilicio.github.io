@@ -1,0 +1,69 @@
+.header {
+  position: relative;
+  min-height: 60vh;
+  height: 0;
+  width: 100%;
+  background-image: var(--gradient);
+  padding: 3em 2em;
+  margin-bottom: 3em;
+}
+
+.header::after {
+  content: "";
+  background: url("/wave.svg");
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-lg);
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.col:first-child {
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-top: auto;
+  border: 5px solid var(--accent);
+  position: relative;
+  z-index: 1;
+  align-self: flex-end;
+  width: 250px;
+}
+
+.bigtitle {
+  margin: 0;
+  font-family: "mosk", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--text);
+}
+.bigtitle > span,
+.leadtext > span {
+  color: var(--accent);
+}
+
+.leadtext {
+  margin: 0;
+  font-size: 2.75em;
+  font-weight: 800;
+  color: var(--text);
+}
