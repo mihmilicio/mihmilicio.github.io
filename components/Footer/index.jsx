@@ -10,19 +10,19 @@ import {
 export const Footer = () => (
   <footer className={styles.footer}>
     <a href="https://github.com/mihmilicio/" target="_blank">
-      <FontAwesomeIcon icon={faGithub} />
+      <FontAwesomeIcon icon={faGithub} size="2x" />
     </a>
     <a href="mailto:milenamilicio@hotmail.com" target="_blank">
-      <FontAwesomeIcon icon={faEnvelope} />
+      <FontAwesomeIcon icon={faEnvelope} size="2x" />
     </a>
     <a
       href="https://www.linkedin.com/in/milena-milicio-7b566116b/"
       target="_blank"
     >
-      <FontAwesomeIcon icon={faLinkedin} />
+      <FontAwesomeIcon icon={faLinkedin} size="2x" />
     </a>
     <a href="https://www.instagram.com/mihmilicio/" target="_blank">
-      <FontAwesomeIcon icon={faInstagram} />
+      <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a>
   </footer>
 );

@@ -17,7 +17,7 @@ export default function Home() {
 
       <Header />
 
-      <main>
+      <main style={{ padding: "0 24px" }}>
         <Section title="who am I?">
           <p className="mt-0">
             I'm a 19yo brazilian{" "}

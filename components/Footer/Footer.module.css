@@ -9,10 +9,6 @@
   text-align: center;
 }
 
-.footer svg {
-  height: 2em;
-}
-
 .footer a {
   color: var(--primary);
 }
