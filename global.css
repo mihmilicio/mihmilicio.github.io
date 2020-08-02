@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "mosk";
+  src: url("/font/mosk-400.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "mosk";
+  src: url("/font/mosk-500.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "mosk";
+  src: url("/font/mosk-800.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "mosk";
+  src: url("/font/mosk-900.ttf");
+  font-weight: 900;
+}
+
+body {
+  --primary: #8575eb;
+  --secondary: #54f5ad;
+  --accent: #28169c;
+  --text: #252525;
+  --gradient: linear-gradient(60deg, #8575eb, #54f5ad);
+
+  --container-lg: 1024px;
+  --container-md: 800px;
+
+  margin: 0;
+  font-family: "mosk", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-muted {
+  color: #9e9e9e;
+}
