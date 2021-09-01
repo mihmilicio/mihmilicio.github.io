@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="stylesheet" href="/global.css" />
         <script
           src="https://kit.fontawesome.com/bc8eb1b8d2.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </Head>
 
