@@ -1,4 +1,5 @@
 import Head from "next/head";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Header } from "../components/Header";
 import { Section } from "../components/Section";
 import { Footer } from "../components/Footer";
