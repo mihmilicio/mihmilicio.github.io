@@ -1,8 +1,8 @@
-import Head from "next/head";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { Header } from "../components/Header";
-import { Section } from "../components/Section";
-import { Footer } from "../components/Footer";
+import Head from 'next/head';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { Header } from '../components/Header';
+import { Section } from '../components/Section';
+import { Footer } from '../components/Footer';
 
 export default function Home() {
   return (
@@ -18,20 +18,20 @@ export default function Home() {
 
       <Header />
 
-      <main style={{ padding: "0 24px" }}>
+      <main style={{ padding: '0 24px' }}>
         <Section title="who am I?">
           <p className="mt-0">
-            I'm a 19yo brazilian{" "}
+            I'm a 20yo brazilian{' '}
             <span className="text-muted">(Curitiba-PR)</span> front-end
             developer. Currently working with ReactJS at Paraná Banco and
-            studying at Universidade Positivo{" "}
+            studying at Universidade Positivo{' '}
             <span className="text-muted">
-              (Bacharelado em Sistemas de Informação)
+              (Bacharelado em Sistemas de Informação){' '}
             </span>
-            .
+            since 2020.
           </p>
           <p>
-            Through the years 2016 - 2019 I studied at TECPUC{" "}
+            Through the years 2016 - 2019 I studied at TECPUC{' '}
             <span className="text-muted">(Técnico em Informática)</span>. I
             started working with front-end at 2018, and my favorite part about
             the job always has been CSS.
@@ -43,14 +43,22 @@ export default function Home() {
             Beyond academic studies, I have a few things going on right now:
           </p>
           <ul>
-            <li>Mobile development bootcamp by IGTI</li>
+            <li>Studying and training for Android native development</li>
+            <li>Trying my best&trade; at UI/UX design and Figma</li>
             <li>
-              Trying my best&trade; at UI design and tooling (Illustrator and
-              Figma)
+              Focusing on{' '}
+              <a
+                href="https://github.com/mihmilicio/ktane-manual-android"
+                target="_blank"
+              >
+                KTANE Auto Manual for Android
+              </a>
             </li>
-            <li>A few projects of web and mobile apps </li>
-            <li>Learning embroidery 😄</li>
-            <li>Reading "Ash Princess" by Laura Sebastian</li>
+            <li>
+              Reading "Steal Like an Artist" by Austin Kleon, and "The Seven
+              Husbands of Evelyn Hugo" by Taylor Jenkins Reid
+            </li>
+            <li>Hoping for getting vaccinated soon</li>
           </ul>
         </Section>
 
