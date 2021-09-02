@@ -13,7 +13,7 @@ export const Header = () => (
         </p>
       </div>
       <div className={styles.col}>
-        <img className={styles.avatar} src="/bitmoji.png" alt="my avatar" />
+        <img className={styles.avatar} src="/mii.jpg" alt="my avatar" />
       </div>
     </div>
   </header>
